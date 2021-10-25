@@ -10,8 +10,8 @@ export default function Addtodo(props) {
       alert("Title or Description cannot be blank");
     } else {
       props.addTodo(title, desc);
-      // setTitle("");
-      // setDesc("");
+      setTitle("");
+      setDesc("");
     }
   };
 

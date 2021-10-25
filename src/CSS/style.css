@@ -6,3 +6,7 @@
 .about-text {
     min-height: 75vh;
 }
+
+.form-check-input {
+    box-shadow:none !important;
+}
