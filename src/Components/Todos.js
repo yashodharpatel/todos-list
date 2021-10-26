@@ -6,7 +6,7 @@ export default function Todos(props) {
     <div className="container todos-list">
       <h3 className="text-decoration-underline my-3">Todos List</h3>
       {props.todos.length === 0 ? (
-        <h4>No Todos to Display</h4>
+        <h4>No Todos here yet</h4>
       ) : (
         props.todos.map((todo) => {
           return (

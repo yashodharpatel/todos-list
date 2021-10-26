@@ -12,15 +12,15 @@ export default function TodoItem(props) {
       <h4 id={props.todo.sno}>{props.todo.title}</h4>
       <p>{props.todo.desc}</p>
       <div className="mb-3 form-check">
-        <input
-          type="checkbox"
-          className="form-check-input"
-          id="done"
-          onChange={() => {
-            onDone();
-          }}
-        />
-        <label className="form-check-label" htmlFor="done">
+        <label>
+          <input
+            type="checkbox"
+            className="form-check-input"
+            id="done"
+            onChange={() => {
+              onDone();
+            }}
+          />
           Done
         </label>
       </div>
